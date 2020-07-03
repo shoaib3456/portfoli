@@ -1,0 +1,50 @@
+@media screen and (max-width:890px){
+    #curve{
+        display: none;
+    }
+}
+@media screen and (max-width:550px){
+    .skill-images{
+        width: 400px;
+    }
+}
+@media screen and (max-width:500px){
+    .skill-progress{
+        width: 80vw;
+    }
+    #footer{
+        font-size: 6vw;
+    }
+}
+@media screen and (max-width:500px){
+    nav div:nth-child(2){
+        display: none;
+    }
+    nav ul{
+        display: flex;
+        list-style-type: none;
+        flex-direction: column;
+    }
+    nav ul li{
+        font-size: 1.25rem;
+        margin: 5px 10px;
+    }
+    nav ul li a{
+        color:white;
+    }
+    nav div:nth-child(2){
+        position: absolute;
+        top: 8vh;
+        width: 100%;
+        background:linear-gradient( -45deg,rgba(27, 84, 230, 0.596),rgba(134, 66, 197, 0.562));
+        z-index: 100;
+    }
+    #hamburger{
+        display: block;
+    }
+}
+@media screen and (max-width:500px){
+    .skill-images{
+        width: 100vw;
+    }
+}
