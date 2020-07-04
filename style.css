@@ -488,6 +488,5 @@ nav div:nth-child(2){
     align-items: center;
     flex-direction: column;
     color: white;
-    font-family: 'Yellowtail', cursive !important;
     font-size: 2rem;
 }
